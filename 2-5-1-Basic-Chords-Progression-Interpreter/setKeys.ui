@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>setKeys</class>
+ <widget class="QMainWindow" name="setKeys">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(211, 255, 153)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Fmaj">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Emaj">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>60</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Gmaj">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>90</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Amaj">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>90</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="minor_keys">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Baskerville Old Face</family>
+      <pointsize>18</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Minor Keys' 2-5-1: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ebmaj">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>60</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Eb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Dm">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>200</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Dmaj">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>60</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ebm">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>200</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Eb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Dbmaj">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Db</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cmaj">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Em">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>200</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Gm">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>230</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Abmaj">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>90</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Ab</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="major_keys">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Baskerville Old Face</family>
+      <pointsize>18</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Major Keys' 2-5-1: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cm">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F_sharp_maj">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>F#</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bmaj">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>120</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Am">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>230</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bm">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>260</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bbmaj">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Bb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Dbm">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>200</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Db</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bbm">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Bb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F_sharp_m">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>230</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>F#</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Fm">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Abm">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>230</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Ab</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="minor_keys_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Baskerville Old Face</family>
+      <pointsize>18</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Others: </string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QToolButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>-10</y>
+      <width>281</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/300.jpg);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BackButton">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>330</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string> Go Back</string>
+    </property>
+   </widget>
+   <zorder>listView</zorder>
+   <zorder>Fmaj</zorder>
+   <zorder>Emaj</zorder>
+   <zorder>Gmaj</zorder>
+   <zorder>Amaj</zorder>
+   <zorder>minor_keys</zorder>
+   <zorder>Ebmaj</zorder>
+   <zorder>Dm</zorder>
+   <zorder>Dmaj</zorder>
+   <zorder>Ebm</zorder>
+   <zorder>Dbmaj</zorder>
+   <zorder>Cmaj</zorder>
+   <zorder>Em</zorder>
+   <zorder>Gm</zorder>
+   <zorder>Abmaj</zorder>
+   <zorder>major_keys</zorder>
+   <zorder>Cm</zorder>
+   <zorder>F_sharp_maj</zorder>
+   <zorder>Bmaj</zorder>
+   <zorder>Am</zorder>
+   <zorder>Bm</zorder>
+   <zorder>Bbmaj</zorder>
+   <zorder>Dbm</zorder>
+   <zorder>Bbm</zorder>
+   <zorder>F_sharp_m</zorder>
+   <zorder>Fm</zorder>
+   <zorder>Abm</zorder>
+   <zorder>minor_keys_2</zorder>
+   <zorder>toolButton</zorder>
+   <zorder>BackButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>504</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image_1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DbMaj</class>
+ <widget class="QMainWindow" name="DbMaj">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(197, 255, 170)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="BackButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei</family>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(170, 255, 255);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string> Go Back</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="generate_xml">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCommandLinkButton
+{
+    /*背景颜色*/  
+    background-color: rgb(211, 207, 255);   
+    color:black;
+      
+}
+QCommandLinkButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string> Generate '.xml' file</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="major_keys_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>381</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ebm7 - Ab7 - Dbmaj7</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="generate_mid">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>140</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCommandLinkButton
+{
+    /*背景颜色*/  
+    background-color: rgb(211, 207, 255);   
+    color:black;
+      
+}
+QCommandLinkButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Generate '.mid' file</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>300</y>
+      <width>341</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Microsoft YaHei UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;作者邮箱(Email): RCrobotcat@gmail.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="major_keys">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>381</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Baskerville Old Face</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>2-5-1 Chord Progression in Db Major: </string>
+    </property>
+   </widget>
+   <widget class="QListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>461</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Dbmajor.png);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>250</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>新宋体</family>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>（If there's anything wrong, please email me.
+ 如果有错误，请邮件告诉我。）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showInMuseScore">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Eras Bold ITC</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    /*背景颜色*/  
+    background-color: rgb(255, 201, 6);   
+    color:black;
+      
+}
+QPushButton:pressed
+{
+    
+    /*按下时字向右移动4像素*/  
+    padding-left:4px;
+    /*按下时字向下移动4像素*/  
+    padding-top:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Show this in MuseScore</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>476</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="251pic/Dbmaj.qrc"/>
+ </resources>
+ <connections/>
+</ui>
